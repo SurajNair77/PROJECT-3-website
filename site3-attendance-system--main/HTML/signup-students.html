@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Sign in & Sign up Form</title><script defer src="2.js"></script>
+</head>
+
+<body>
+  <div class="container">
+   <form name="myForm" action="./signup_student.php" onsubmit="return validateForm()" method="post">
+    <div class="forms-container">
+      <div class="signin-signup">
+        <form action="./homepage-student.html" class="sign-in-form">
+          <h2 class="title">Sign Up-Students</h2>
+          <div class="input-field">
+            <i class="fa fa-id-card-o" aria-hidden="true" ></i>
+            <input type="text" placeholder="USN" name="fname"/>
+          </div>
+          <div class="input-field">
+            <i class="fas fa-air-freshener" ></i>
+            <input type="text" placeholder="Branch" name="branch"/>
+          </div>
+          <div class="input-field">
+            <i class="fas fa-align-justify" ></i>
+            <input type="text" placeholder="Semester" name="sem" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="text" placeholder="Email-ID" name="email"/>
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" name="pass"/>
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Renter Password" name="reenter"/>
+          </div>
+          <input type="submit" value="Sign Up" class="btn solid" />
+          
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <img src="undraw_Collaboration_re_vyau.svg" class="image" alt="" />
+
+          <h2 style="text-align:center;">INSTA ATTENDANCE</h2>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</form>
+</body>
+
+</html>
